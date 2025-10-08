@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="Portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <a href="#" class="logo">NILADRI PAUL</a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  
+  <section id="home" class="house">
+    <div class="house-img">
+      <img src="niladri.jpg" alt="Niladri" style="width:395px;">
+    </div>
+    <div class="house-content">
+      <h1>Hi, It's <span>Niladri</span></h1>
+      <h2 class="typing-text">I'm a <span></span></h2>                      
+      <p>A personal portfolio is more than a collection of work – it's a dynamic,
+        interactive representation of your professional identity. 
+        It start by selecting your best work samples and organizing them into a professional and engaging presentation. 
+        It create a clear structure, including a homepage, an <br> "About Me" section, your projects, and contact information.</p><br>
+      <div class="social-media">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+      <a href="#contact" class="btn">Hire me</a>
+    </div>
+  </section>
+
+  
+  <section id="portfolio" class="section">
+    <h2 class="section-title">My Portfolio</h2>
+    <div class="portfolio-container">
+      <div class="portfolio-item">
+        <img src="Project1.webp" alt="Project 1">
+        <h3>Restaurant Website</h3>
+        <p>A modern food ordering app built with React & Node.js.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="Project2.jpg" alt="Project 2">
+        <h3>Weather App</h3>
+        <p>It's Real-time weather tracking app using API integration.</p>
+      </div>
+      <div class="portfolio-item">
+        <img src="Project3.jpeg" alt="Project 3">
+        <h3>Portfolio Website</h3>
+        <p>My personal portfolio built with HTML, CSS, and JS.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="experience" class="section">
+    <h2 class="section-title">Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Frontend Developer Intern</h3>
+        <span>Code Alpha • 2024</span>
+        <p>Worked on responsive UI components using React.js and CSS animations.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Freelance Web Developer</h3>
+        <span>2023 - 2025</span>
+        <p>Developed websites for small businesses with modern frontend frameworks.</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="education" class="section">
+    <h2 class="section-title">Education</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Master Of Computer Applications</h3>
+        <span>Jain University, Bangalore • 2023 - 2025</span>
+        <p>Master of Computer Applications with focus on Full Stack Development.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Bachelor of Computer Applications</h3>
+        <span>Siliguri Institute of Technology, Siliguri • 2020 - 2023</span>
+        <p>It's Graduated with strong foundation in programming and database systems.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Class 10th</h3>
+        <span>Techno India Group Public School, Siliguri • 2017-2018 </span>
+        <p>It's Successfully completed Class 10th with a strong academic foundation, 
+           focusing on Mathematics, Science, and Computer Studies. Actively 
+           participated in school cultural programs and inter-house competitions, 
+           which helped build leadership and teamwork skills.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>Class 12th</h3>
+        <span>Techno India Group Public School • 2019-2020</span>
+        <p>A Completed Class 12th with a focus on Science stream (Physics, Chemistry, Mathematics, and Computer Science). 
+           It Actively participated in school events, cultural programs, and represented the school in inter-school competitions.</p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact Me</h2>
+    <form id="contactForm">
+      <div class="form-control">
+        <label for="name">Name</label>
+        <input type="text" id="name" required>
+      </div>
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+      </div>
+      <div class="form-control">
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" required></textarea>
+      </div>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  <script src="Portfolio.js"></script>
+</body>
+</html>
